@@ -41,7 +41,7 @@ def main():
      while True:
          guess_game()
          again = input("\nPlay again? (y/n) [default: y]: ").strip().lower()
-         if again == "" or again == "y":   # Enter or "y" = rest
+         if again == "" or again == "y":   # Enter or "y" = re
             continue
          else:
             print("Thanks for playing! 👋")
@@ -49,6 +49,7 @@ def main():
 
 if __name__ == "__main__":
     main()
+
 
 
 
